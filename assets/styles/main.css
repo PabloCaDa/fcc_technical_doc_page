@@ -1,0 +1,157 @@
+body{
+    font-family: 'Roboto',Arial, serif;
+    font-size: 16px;
+    padding:0px;
+    margin:0px;
+    color: #4d4e53;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+p{
+    margin-left:10px;
+    text-align:justify
+}
+
+li{
+    margin-bottom:10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex--center{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex--align-center{
+    align-items: center;
+}
+
+.flex--justify-between{
+    justify-content: space-between;
+}
+
+.flex--justify-around{
+    justify-content: space-around;
+}
+
+.flex--column{
+    flex-direction: column;
+}
+
+.flex--1{
+    flex:1;
+}
+
+.flex--2{
+    flex:2;
+}
+
+#headline{
+    background-color: #333;
+    padding:10px;
+    min-height: 20px;
+    position:fixed;
+    width:100%;
+    z-index:11;
+}
+
+#logo-img{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png');
+    background-position: center;
+    background-size: cover;
+    max-width:40px;
+    width: 40px;
+    height: 40px;
+}
+
+#menu-bars{
+    display: none;
+    color:#fff;
+    font-size: 40px;
+
+}
+
+
+nav{
+    min-width: 250px;
+    height:100%;
+    position:fixed;
+    border-right: 2px solid grey;
+    margin-top: 40px;
+}
+
+header{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top:20px;
+    margin-bottom: 20px;
+    position:relative;
+    top:70px;
+}
+
+.first-header{
+    margin-top:0px;
+}
+
+article{
+    position:relative;
+    top:70px;
+}
+
+#nav-title{
+    border-bottom:1px solid grey;
+    width:100%;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    position: static;
+}
+
+#nav-list{
+    padding-left: 0px;
+    width:100%;
+    margin-top:0px;
+    
+}
+
+.nav-link{
+    width: 100%;
+}
+
+.nav-link li{
+    list-style: none;
+    padding:10px 0px;
+    border-bottom:1px solid grey;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#main-doc{
+    position: relative;
+    top:40px;
+    margin-left:250px;
+    margin-bottom:300px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+code{
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    display: block;
+    white-space: pre-line;
+    text-align:left;
+
+}
+
+
+

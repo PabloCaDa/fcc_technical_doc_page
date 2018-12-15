@@ -1,0 +1,13 @@
+@media screen and (max-width: 830px){
+    nav{
+        display:none !important;
+    }
+    #main-doc{
+        margin-left:0px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    #menu-bars{
+        display: block;
+    }
+}
