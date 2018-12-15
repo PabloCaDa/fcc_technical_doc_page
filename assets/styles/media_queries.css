@@ -3,25 +3,25 @@
         background-color: #333;
         z-index:11;
         margin-top: 60px;
-        transform:  translateX(-10000px)  ;
-        -webkit-transform:  translateX(-10000px)  ;
-        -moz-transform:  translateX(-10000px)  ;
-        -ms-transform:  translateX(-10000px)  ;
-        -o-transform:  translateX(-10000px)  ;
-        transition: transform 0.2s linear;
-        -webkit-transition: transform 0.2s linear;
-        -moz-transition: transform 0.2s linear;
-        -ms-transition: transform 0.2s linear;
-        -o-transition: transform 0.2s linear;
+        transform:  translate3d(-100vw,0,0)  ;
+        -webkit-transform:  translate3d(-100vw,0,0)  ;
+        -moz-transform:  translate3d(-100vw,0,0)  ;
+        -ms-transform:  translate3d(-100vw,0,0)  ;
+        -o-transform:  translate3d(-100vw,0,0)  ;
+        transition: transform 0.5s linear;
+        -webkit-transition: transform 0.5s linear;
+        -moz-transition: transform 0.5s linear;
+        -ms-transition: transform 0.5s linear;
+        -o-transition: transform 0.5s linear;
 }
 
     nav.open{
-        transform: translateX(0px);
-        -webkit-transform: translateX(0px);
-        -moz-transform: translateX(0px);
-        -ms-transform: translateX(0px);
-        -o-transform: translateX(0px);
-    }
+        transform: translate3d(0vw,0,0);
+        -webkit-transform: translate3d(0vw,0,0);
+        -moz-transform: translate3d(0vw,0,0);
+        -ms-transform: translate3d(0vw,0,0);
+        -o-transform: translate3d(0vw,0,0);
+}
     
     nav.close{
         transform: translateX(-10000px);
