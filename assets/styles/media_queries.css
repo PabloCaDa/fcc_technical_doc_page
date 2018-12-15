@@ -24,12 +24,12 @@
 }
     
     nav.close{
-        transform: translateX(-10000px);
-        -webkit-transform: translateX(-10000px);
-        -moz-transform: translateX(-10000px);
-        -ms-transform: translateX(-10000px);
-        -o-transform: translateX(-10000px);
-    }
+        transform: translate3d(-100vw,0,0);
+        -webkit-transform: translate3d(-100vw,0,0);
+        -moz-transform: translate3d(-100vw,0,0);
+        -ms-transform: translate3d(-100vw,0,0);
+        -o-transform: translate3d(-100vw,0,0);
+}
 
     .nav-link li.active{
         background-color: #f2f2f2;
